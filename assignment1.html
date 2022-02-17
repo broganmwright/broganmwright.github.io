@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- for mobile device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+        
+        <style>
+            #vid{
+                position: fixed;
+                right: 0;
+                bottom: 0;
+                min-width: 100%;
+                min-height: 100%;
+            }
+            #text{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                background-color: black;
+                border-style: solid;
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            }
+            div.fixedName{
+                position: fixed;
+                top: 30%;
+                left: 30%;
+                font-size: 60px;
+            }
+            div.fixedMenu{
+                position: fixed;
+                top: 10%;
+                right: 10%;
+                font-size: 30px;
+            }
+        </style>
+
+        <title>Brogan Wright</title>
+    </head>
+    <body>
+        <video autoplay loop muted id="vid">
+            <source src="background.mp4" type="video/mp4">
+            <!-- video source: https://www.youtube.com/watch?v=RzMr3pqxmu8 -->
+        </video>
+        <div class="fixedName">
+            <!-- Name -->
+            <p id="text">Brogan Wright</p>
+        </div>
+        <div class="fixedMenu">
+            <!-- Menu -->
+            <ul class="fa-ul">
+                <li id="text"><i class="fa fa-address-card"></i> About Me</li>
+                <li id="text"><i class="fa fa-folder-open"></i> Resume</li>
+                <li id="text"><i class="fa fa-heart"></i> Hobbies</li>
+                <li id="text"><i class="fa fa-suitcase"></i> Work</li>
+                <li id="text"><i class="fas fa-desktop"></i> GitHub</li>
+            </ul>
+        </div>
+    </body>
+</html>
